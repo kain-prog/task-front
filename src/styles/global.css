@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+.main-body,
+html{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.c-pointer{
+    cursor: pointer;
+}
+
+.t-300{
+    transition: all ease 0.4s!important;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+.hov-custom:hover,
+.bg-blue{
+    background-color: #0D6EFD!important;
+}
+
+.widspace{
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.open{
+    transition: all ease 0.4s;
+    display: block;
+}
+
+.closed{
+    transition: all ease 0.4s;
+    text-align: center;
+    opacity: 0;
+    overflow-x: hidden;
+    transform: scale(0);
+    display: none;
+}
+
+.f-letter span{
+    color: #0D6EFD;
+}
+
+.w-c{
+    display: flex;
+    width: 75px;
+}
+
+.w-o{
+    width: 215px;
+}
+
+.fs-7{
+    font-size: 0.6em!important;
+}
+
+.fs-input{
+    font-size: 0.8rem!important;
+}
+
+.local{
+    right: -35px;
+    z-index: 1;
+}
+
+.local-2{
+    bottom: 10px;
+    z-index: 3;
+}
+
+.local-3{
+    font-family: 'Anek Latin', sans-serif;
+    top:10px;
+}
+
+.bg-tasks{
+    background-color: aliceblue;
+}
+
+.new-task{
+    width: 75px;
+    height: 75px;
+}
+
+.new-task:hover{
+    background-color: #1264dfcf!important;
+    transform: scale(1.2,1.2)!important;
+}
+
+.hover-icons:hover{
+    transition: all ease 0.4s;
+    filter: brightness(60%);
+    transform: scale(0.8 , 0.8)!important;
+}
+
+.break-word-username{
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+}
+
+.break-word-title{
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+}
+
+.break-word-post{
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+}
+
+.bg-bege{
+    background-color: rgb(247,247,247);
+}
+
+.anek{
+    font-family: 'Anek Latin', sans-serif!important;
+    font-weight: 700!important;
+}
+
+.mingzat{
+    font-family: 'Mingzat', sans-serif;
+}
+
+.max-w{
+    max-width: 100px;
+}
+
+@media(max-width: 767px){
+
+    #task-loading{
+        margin-top: 0!important;
+        padding: 2em 0!important;
+    }
+
+    #side-bar{
+        padding: 0!important;
+        width: 100%;
+        height: 124px;;
+    }
+
+    .local-2{
+        bottom: 18px!important;   
+    }
+
+    .new-task{
+        width: 50px!important;
+        height: 50px!important;
+    }
+
+    #sec{
+        margin: 0!important;
+        justify-content: center!important;
+        align-items: center!important;
+        margin: 0 auto!important;
+    }
+
+    .local, #footer{
+        display: none!important;
+    }
+
+    .nav-pills{
+        padding: 0 1.5rem!important ;
+        margin-bottom: 0!important;
+    }
+
+    .main-body{
+        flex-direction: column!important;
+        height: 100%;
+    }
+
+    #hr,
+    #hr2{
+        margin-top: 0.3rem!important;
+    }
+
+    #list{
+        display: flex!important;
+        width: 100%;
+        margin-top: 0!important;
+        text-align: center;
+
+        /*flex-direction: row!important; */
+        /* align-items: center; */
+        /* justify-content: center;*/
+    }
+
+    #list li{
+        margin-right: 0.5em;
+        width: auto!important;
+    }
+
+    #loading-btn{
+        display: none;
+    }
+
+    #success-b{
+        display: none;
+    }
+
+    #msg-s{
+        display: none;
+    }
+}
+
+@media(max-width:340px){
+    .nav-link p{
+        display: none;
+    }
+
+    #tasks{
+        height: auto;
+    }
+}
