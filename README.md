@@ -15,7 +15,12 @@ Projeto destiano à requisição de consumo de rotas [projeto server-tasks] e cr
 
 **IMPORTANTE** - É possível criar, editar e deletar tarefas em tempo real, sendo visto e acessível para todos.
 
-<img src="./src/img/print-swagger.PNG" alt="Rotas Swagger" /> 
+<img src="./src/assets/home-page.PNG" width="100px;" alt="Foto Kain"/><br>
+<img src="./src/assets/new-task.PNG" width="100px;" alt="Foto Kain"/><br>
+<img src="./src/assets/edit-task.PNG" width="100px;" alt="Foto Kain"/><br>
+<img src="./src/assets/delete-task.PNG" width="100px;" alt="Foto Kain"/><br>
+<img src="./src/assets/painel-task.PNG" width="100px;" alt="Foto Kain"/><br>
+ 
 
 > A aplicação se encontra com o intuito de criar, editar e ler tarefas, rotinas e qualquer tipo de dados que sejam consumidos e lembrados em tempo real, sem se preocupar com o tempo e com os dados inseridos.
 
