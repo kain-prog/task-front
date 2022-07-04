@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+Create Read Update Delete Task´s ✔<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Link da aplicação ↓
+- https://kain-prog.github.io/task-front/
 
-## Available Scripts
 
-In the project directory, you can run:
+> Descrição:
+Projeto destiano à requisição de consumo de rotas [projeto server-tasks] e criação da interface, utilizando métodos e UX e UI para afins de aprimoramento de prática com tecnologias do momento.
 
-### `yarn start`
+- [x] - Página Home e painel de tarefas.
+- [x] - Ser possível criar tarefas.
+- [x] - Ser possível editar e deletar tarefas existentes.
+- [x] - Renderizar todas as tarefas na home-page.
+- [x] - Aplicação responsiva e menu com expansão.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**IMPORTANTE** - É possível criar, editar e deletar tarefas em tempo real, sendo visto e acessível para todos.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="./src/img/print-swagger.PNG" alt="Rotas Swagger" /> 
 
-### `yarn test`
+> A aplicação se encontra com o intuito de criar, editar e ler tarefas, rotinas e qualquer tipo de dados que sejam consumidos e lembrados em tempo real, sem se preocupar com o tempo e com os dados inseridos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto foi criado em:
 
-### `yarn build`
+- [x] - ReactJS
+- [x] - TypeScript
+- [x] - Bootstrap
+- [x] - React-Bootstrap
+- [x] - Bootstrap-icons
+- [x] - Axios
+- [x] - Router-DOM
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝 Colaboradores
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pessoa que contribuiu para este projeto:
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://kain-prog.github.io/kain">
+        <img src="./src/assets/kain perfil 2 branco azul.jpeg" width="100px;" alt="Foto Kain"/><br>
+        <sub>
+          <b>Matheus Santos [Kain Developer]</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
