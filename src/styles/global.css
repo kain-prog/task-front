@@ -66,8 +66,9 @@ html{
 }
 
 .local{
-    right: -35px;
-    z-index: 1;
+    right: -32px;
+    z-index: 5;
+    bottom: 8px;
 }
 
 .local-2{
@@ -142,6 +143,12 @@ html{
 
 .max-w{
     max-width: 100px;
+}
+
+.btn-home{
+    left: 12px;
+    font-size: 17px;
+    top: 10px;
 }
 
 @media(max-width: 767px){

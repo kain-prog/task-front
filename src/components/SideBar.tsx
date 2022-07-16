@@ -46,7 +46,7 @@ export default function SideBar(){
         </div>
 
         <div onClick={() => setOpen (!open)} className={`position-absolute local ${!open && "rotate-180"} t-300`} >
-          <i className={`bi bi-chevron-double-left c-pointer fs-4 text-dark`}></i>
+          <i className={`bi bi-list c-pointer fs-4 text-dark`}></i>
         </div>       
       </div>
       

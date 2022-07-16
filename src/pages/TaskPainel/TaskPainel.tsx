@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
-import { useParams } from "react-router-dom";
-// import NewTask from "../../components/NewTask";
+import { useParams, Link } from "react-router-dom";
 import SideBar from "../../components/SideBar";
 import { getTaskId } from "../../services/tasksAPI";
 
@@ -37,6 +36,12 @@ const [username, setUsername] = useState<any>();
                 <div className="position-absolute local-3 d-flex justify-content-center w-75">
                     <h2 className="fs-5 fw-bold break-word-username anek text-capitalize">{username}</h2>
                 </div>
+
+                <Link to="/">
+                    <div className="c-pointer position-absolute btn-home">
+                        <i className="bi bi-chevron-double-left text-dark"> <span>Back</span></i>
+                    </div>
+                </Link>
                 
                     <div id="all-task" className="flex-shrink-0 overflow-auto container border rounded shadow h-100 w-100 p-0">
                         
