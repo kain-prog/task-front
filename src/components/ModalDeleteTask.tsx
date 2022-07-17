@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { Button, Modal } from "react-bootstrap"
-import { deleteTask } from "../services/tasksAPI";
-import { taskReq } from "../types/tasksTypes"
+import { useState } from 'react';
+import { Button, Modal } from 'react-bootstrap'
+import { deleteTask } from '../services/tasksAPI';
+import { taskReq } from '../types/tasksTypes'
 
 export function ModalDeleteTask(props: any){
 
@@ -58,51 +58,51 @@ export function ModalDeleteTask(props: any){
     return (
         <Modal
         {...props
-        }size="md"
-        aria-labelledby="contained-modal-title-vcenter"
+        }size='md'
+        aria-labelledby='contained-modal-title-vcenter'
         centered
         >
             <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter" className="fs-6">
+                <Modal.Title id='contained-modal-title-vcenter' className='fs-6'>
                     - Task
                 </Modal.Title>
             </Modal.Header>
-            <Modal.Body className="mb-5">
-            <div className="d-flex">
+            <Modal.Body className='mb-5'>
+            <div className='d-flex'>
                 <div>
-                    <h6 className="w-auto me-1">Can you delete Task:</h6>
+                    <h6 className='w-auto me-1'>Can you delete Task:</h6>
                 </div>
-                <div className="break-word-username max-w">
-                    <h6 className="me-1 text-primary font-weight mw-25">{props.name}</h6>
+                <div className='break-word-username max-w'>
+                    <h6 className='me-1 text-primary font-weight mw-25'>{props.name}</h6>
                 </div>
                 <div>
-                    <h6 className="w-auto ms-2">?</h6>
+                    <h6 className='w-auto ms-2'>?</h6>
                 </div>
             </div>                       
             </Modal.Body>
             <Modal.Footer>
 
-            <div id="alert-btn" className={`d-flex alert alert-success fade show ${msg ? 'd-block' : 'd-none'} py-1`} role="alert">
+            <div id='alert-btn' className={`d-flex alert alert-success fade show ${msg ? 'd-block' : 'd-none'} py-1`} role='alert'>
               <p className={`mb-0 break-word-username max-w me-2`}>{props.name}</p> <span>was <strong>Deleted!</strong></span>
             </div>
 
             <Button onClick={onCancel} className={`btn-danger me-3 ${def ? 'd-block' : 'd-none'} `}>
-            <i className="bi bi-x-circle me-2"></i>
+            <i className='bi bi-x-circle me-2'></i>
                 Cancel
             </Button>
 
             <Button onClick={onSubmit} className={`btn-primary ${def ? 'd-block' : 'd-none'} `}>
-            <i className="bi bi-check2-circle me-2"></i>
+            <i className='bi bi-check2-circle me-2'></i>
                 Yes
             </Button>     
 
-            <button id="btn-loading" className={`btn btn-primary ${isLoading  ? 'd-block' : 'd-none'} `} type="button" disabled >
-              <span className='spinner-border spinner-border-sm me-2' role="status" aria-hidden="true"></span>
+            <button id='btn-loading' className={`btn btn-primary ${isLoading  ? 'd-block' : 'd-none'} `} type='button' disabled >
+              <span className='spinner-border spinner-border-sm me-2' role='status' aria-hidden='true'></span>
               Loading...
             </button>
 
-            <button id="btn-succefull"className={`btn btn-success ${isSuccess ? 'd-block' : 'd-none'} `} type="button" disabled >
-              <i className="bi bi-check2-circle"></i>
+            <button id='btn-succefull'className={`btn btn-success ${isSuccess ? 'd-block' : 'd-none'} `} type='button' disabled >
+              <i className='bi bi-check2-circle'></i>
             </button>
 
         </Modal.Footer>
