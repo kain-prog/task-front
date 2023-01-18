@@ -2,7 +2,7 @@ import axios from 'axios';
 import { taskReq} from '../types/tasksTypes';
 
 const enderecoAPI = axios.create({
-    baseURL: 'https://task-serv.herokuapp.com/'
+    baseURL: 'https://task-server-7o99.onrender.com'
 });
 
 async function getTasks(){
